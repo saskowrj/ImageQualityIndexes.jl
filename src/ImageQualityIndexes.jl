@@ -2,7 +2,7 @@ module ImageQualityIndexes
 
 using MappedArrays, OffsetArrays
 using ImageCore, ColorVectorSpace
-using ImageCore: NumberLike, Pixel, GenericImage, GenericGrayImage
+using ImageCore: NumberLike, GenericImage, GenericGrayImage#,Pixel
 using ImageDistances, ImageFiltering
 using Statistics: mean, std
 using Base.Iterators: repeated
